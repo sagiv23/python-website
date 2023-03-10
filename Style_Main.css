@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* נביגיישן בר*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(138, 130, 130, 0.473);
+    color: rgba(209, 190, 190, 0.473);
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: linear-gradient(rgb(251, 255, 0) ,rgba(70, 73, 223, 0.575));
+}
+
+#Icon_Img_nav{
+    height: 120px;
+    width: 120px;
+    margin-left: 90px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 50px;
+    list-style-type: none;
+    color: #585858;
+}
+
+li:hover{
+    color: rgb(37, 118, 224);
+    transition: 0.7s;
+}
+
+ul{
+    margin-right: 200px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+/*גוף האתר*/
+body{
+    background-image: url("background_img.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline rgb(251, 255, 0);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+#end{
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
